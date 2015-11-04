@@ -1,0 +1,24 @@
+{
+  "name": "coffemachine-in-coffee",
+  "version": "1.0.0",
+  "description": "CoffeeMachine impl",
+  "main": "CoffeeMachineTest.coffee",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --watch --compilers coffee-script:coffee-script/register *.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanlaurent/CoffeeMachine-inCoffee.git"
+  },
+  "author": "Jean-Laurent de Morlhon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanlaurent/CoffeeMachine-inCoffee/issues"
+  },
+  "homepage": "https://github.com/jeanlaurent/CoffeeMachine-inCoffee#readme",
+  "dependencies": {
+    "chai": "^3.4.0",
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.3.3"
+  }
+}
